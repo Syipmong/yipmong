@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="loadingScreen" class="loading-screen">
+  <div class="loading-content">
+    <div class="spinner loader"></div>
+    <p>Loading please wait...</p>
+  </div>
+</div>
+
+
+  <div class="container">
+    <header class="text-center">
+  <h1>
+    <span style="--delay: 1;">Y</span>
+    <span style="--delay: 2;">i</span>
+    <span style="--delay: 3;">p</span>
+    <span style="--delay: 4;">m</span>
+    <span style="--delay: 5;">o</span>
+    <span style="--delay: 6;">n</span>
+    <span style="--delay: 7;">g</span>
+    <span style="--delay: 8;"> </span> 
+    <span style="--delay: 9;">S</span>
+    <span style="--delay: 10;">a</span>
+    <span style="--delay: 11;">i</span>
+    <span style="--delay: 12;">d</span>
+  </h1>
+  <img src="/asset/avatar.jpg" alt="Avatar" class="avatar">
+</header>
+
+    <ul class="nav nav-pills justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" href="#" onclick="showScreen('home')"><i class="fas fa-home"></i> Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" onclick="showScreen('about')"><i class="fas fa-user"></i> About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" onclick="showScreen('portfolio')"><i class="fas fa-briefcase"></i> Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" onclick="showScreen('contact')"><i class="fas fa-envelope"></i> Contact</a>
+      </li>
+    </ul>
+
+   <div id="homeScreen" class="screen">
+  <h2>Welcome to My Portfolio</h2>
+  <div class="about-section">
+      <h3>About Me</h3>
+      <p>
+          I am an aspiring computer scientist with a passion for technology. My focus areas include software development, machine learning, and cybersecurity. Currently, I am working as a Team Leader at The Tech Hub and Programmers Hub International, where I lead a team of talented professionals in delivering innovative solutions.
+      </p>
+  </div>
+  <div class="experience-section">
+      <h3>Experience</h3>
+      <ul>
+          <li><a href="https://www.nhubnigeria.com">nHub Africa</a> - September 2022 to February 2023</li>
+          <li><a href="https://www.alxafrica.com">Alx Africa</a> - February 2023 to March 2024</li>
+      </ul>
+  </div>
+<div class="projects-section">
+  <h3>Projects</h3>
+  <div class="project">
+    <h4>Quiz App</h4>
+    <p>A mini quiz app to excercise the brain on general questions</p>
+    <a href="https://syipmong.github.io/Quiz-app/" class="view-project-btn">View Project</a>
+  </div>
+  <div class="project">
+    <h4>Weather App</h4>
+    <p>A mini weather app built using plain vanilla js and html css, you can check the current weather in every country,city and village or town around the globe</p>
+    <a href="https://syipmong.github.io/WeatherApp/" class="view-project-btn">View Project</a>
+  </div>
+    <div class="project">
+    <h4>ChatBot AI</h4>
+    <p>A micro Chatbot application</p>
+    <a href="https://syipmong.github.io/chatbot/" class="view-project-btn">View Project</a>
+  </div>
+  
+  <button class="view-more-btn" onclick="showScreen('portfolio')">View More</button>
+</div>
+
+</div>
+
+
+    <div id="aboutScreen" class="screen">
+  <h2>About Me</h2>
+  <div class="about-section">
+  </div>
+  <div class="organization-section">
+      <h3>Organizations</h3>
+      <ul>
+          <li>
+              <a href="#">
+                  The Tech Hub
+              </a> - Team Leader
+          </li>
+          <li>
+              Programmers Hub International - Co-founder
+          </li>
+          <li>
+              <a href="https://www.nhubnigeria.com">
+                  nHub Africa
+              </a> - September 2022 to February 2023
+          </li>
+          <li>
+              <a href="https://www.alxafrica.com">
+                  Alx Africa
+              </a> - February 2023 to March 2024
+          </li>
+      </ul>
+  </div>
+  </div>
+</div>
+
+
+    <div id="portfolioScreen" class="screen">
+  <h2>My Projects and Collaborations</h2>
+  <div class="project-list">
+    <ul>
+      <li>
+        <a href="https://syipmong.github.io/Quiz-app/">Quiz App</a>
+        <p>A mini quiz app to excercise the brain on general questions</p>
+      </li>
+      <li>
+        <a href="https://syipmong.github.io/WeatherApp/">Weather App</a>
+        <p>A mini weather app built using plain vanilla js and html css, you can check the current weather in every country,city and village or town around the globe</p>
+      </li>
+      <li>
+        <a href="https://syipmong.github.io/chatbot/">ChatBot AI</a>
+        <p>A micro chatbot AI Application</p>
+      </li>
+      <li><a href="https://github.com/sy">github for more...</a></li>
+
+    </ul>
+  </div>
+</div>
+
+
+
+    <div id="contactScreen" class="screen">
+  <h2>Contact Me</h2>
+  <div class="social-buttons">
+    <a href="https://github.com/syipmong" class="social-button github"><i class="fab fa-github"></i> GitHub</a>
+    <a href="https://twitter.com/syipmong" class="social-button twitter"><i class="fab fa-twitter"></i> Twitter</a>
+    <a href="https://www.linkedin.com/in/syipmong" class="social-button linkedin"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    <a href="https://wa.me/+2349134224563" class="social-button whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+    <a href="tel:+2349134224563" class="social-button phone"><i class="fas fa-phone"></i> Phone</a>
+    <a href="https://discord.gg/vSrVwUMyrC" class="social-button discord"><i class="fab fa-discord"></i> Discord</a>
+  </div>
+</div>
+<footer class="footer">
+    <p> &copy; 2023 Yipmong Said. All rights reserved.</p>
+</footer>
+
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
