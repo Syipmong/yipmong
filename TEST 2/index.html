@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>This is some text in a paragraph</p>
+    <p>This is some text in a paragraph</p>
+    <input type="search" name="search" id="searchbox" placeholder="search">
+    <form action="">
+        <h1>User Registration</h1>
+        <label for="name">Name:
+            <input type="text" name="name" id="name"></label><br/>
+        </label>
+        <label for="email">Email:
+            <input type="email" name="email" id="email">
+        </label><br/>
+        <label for="address">Address<textarea placeholder="Address"></textarea></label><br>
+        <label for="Gender">Gender </label>
+            <label for="male">Male</label><input type="radio" name="gender" id="male" value="Male">
+            <label for="female">Female</label><input type="radio" name="gender" id="female" value="Female"><br>
+        <label for="country">Country
+        <select name="country" id="country">
+            <option value="country">Country</option>
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="nigeria">Nigeria</option>
+        </select>
+        </label><br>
+        <label for="file">Upload Image
+            <input type="file" name="file" id="file">
+        </label><br>
+        <label for="hobbies">Hobbies</label>
+            <input type="checkbox" name="reading" id="readding">Reading
+            <input type="checkbox" name="travelling" id="travelling">Travelling
+        <br>
+        <input type="button" value="Register">
+    </form>
+</body>
+</html>
