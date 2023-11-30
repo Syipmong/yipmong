@@ -1,0 +1,101 @@
+[debug] [2023-11-30T18:55:25.512Z] ----------------------------------------------------------------------
+[debug] [2023-11-30T18:55:25.514Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\syipm\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-11-30T18:55:25.514Z] CLI Version:   12.9.1
+[debug] [2023-11-30T18:55:25.515Z] Platform:      win32
+[debug] [2023-11-30T18:55:25.515Z] Node Version:  v18.16.0
+[debug] [2023-11-30T18:55:25.516Z] Time:          Thu Nov 30 2023 19:55:25 GMT+0100 (West Africa Standard Time)
+[debug] [2023-11-30T18:55:25.516Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-30T18:55:25.520Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-11-30T18:55:25.563Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-30T18:55:25.563Z] > authorizing via signed-in user (syipmong1907@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\projects\www_projects\yipmong
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[debug] [2023-11-30T18:55:33.262Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-11-30T18:55:33.263Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2023-11-30T18:56:18.215Z] > refreshing access token with scopes: []
+[debug] [2023-11-30T18:56:18.216Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-11-30T18:56:18.216Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-11-30T18:56:19.359Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-11-30T18:56:19.359Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-11-30T18:56:19.373Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2023-11-30T18:56:19.373Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"bazeuni","name":"www-project-baze-univ"}
+[debug] [2023-11-30T18:56:34.374Z] *** [apiv2] error from fetch(https://cloudresourcemanager.googleapis.com/v1/projects, {"headers":{},"method":"POST","signal":{},"body":"{\"projectId\":\"bazeuni\",\"name\":\"www-project-baze-univ\"}"}): AbortError: The user aborted a request.
+[debug] [2023-11-30T18:56:39.382Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\syipm\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:254:49)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-11-30T18:56:46.916Z] ----------------------------------------------------------------------
+[debug] [2023-11-30T18:56:46.918Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\syipm\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-11-30T18:56:46.918Z] CLI Version:   12.9.1
+[debug] [2023-11-30T18:56:46.918Z] Platform:      win32
+[debug] [2023-11-30T18:56:46.919Z] Node Version:  v18.16.0
+[debug] [2023-11-30T18:56:46.920Z] Time:          Thu Nov 30 2023 19:56:46 GMT+0100 (West Africa Standard Time)
+[debug] [2023-11-30T18:56:46.920Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-30T18:56:46.926Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-30T18:56:46.927Z] > authorizing via signed-in user (syipmong1907@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\projects\www_projects\yipmong
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2023-11-30T18:57:33.407Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2023-11-30T18:57:33.407Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"bazeunivproject","name":"baze-univ-www-project"}
+[debug] [2023-11-30T18:57:35.866Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2023-11-30T18:57:35.866Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/cp.7548857454981512631"}
+[debug] [2023-11-30T18:57:35.867Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7548857454981512631 [none]
+[debug] [2023-11-30T18:57:56.871Z] *** [apiv2] error from fetch(https://cloudresourcemanager.googleapis.com/v1/operations/cp.7548857454981512631, {"headers":{},"method":"GET"}): FetchError: request to https://cloudresourcemanager.googleapis.com/v1/operations/cp.7548857454981512631 failed, reason: connect ETIMEDOUT 142.251.47.202:443
+[debug] [2023-11-30T18:57:57.374Z] [Project Creation Poller] Retrying task index 0
+[debug] [2023-11-30T18:57:57.374Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7548857454981512631 [none]
+[debug] [2023-11-30T18:57:59.874Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7548857454981512631 200
+[debug] [2023-11-30T18:57:59.874Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7548857454981512631 {"name":"operations/cp.7548857454981512631","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"46371521323","projectId":"bazeunivproject","lifecycleState":"ACTIVE","name":"baze-univ-www-project","createTime":"2023-11-30T18:57:37.739Z"}}
+[debug] [2023-11-30T18:57:59.876Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/bazeunivproject:addFirebase [none]
+[debug] [2023-11-30T18:58:14.877Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects/bazeunivproject:addFirebase, {"headers":{},"method":"POST","signal":{}}): AbortError: The user aborted a request.
+[debug] [2023-11-30T18:58:14.877Z] Timeout reached making request to https://firebase.googleapis.com/v1beta1/projects/bazeunivproject:addFirebase
+[debug] [2023-11-30T18:58:15.821Z] FirebaseError: Timeout reached making request to https://firebase.googleapis.com/v1beta1/projects/bazeunivproject:addFirebase
+    at RetryOperation._fn (C:\Users\syipm\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:235:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to add Firebase to Google Cloud Platform project. See firebase-debug.log for more info.
