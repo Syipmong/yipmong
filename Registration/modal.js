@@ -1,0 +1,1 @@
+// document.getElementById('blob-modal').style.display = 'block';

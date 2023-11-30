@@ -1,0 +1,137 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('digital-lavender-natural-landscape.jpg'); 
+    background-size:cover;
+    background-position: center;
+
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 400px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form {
+    padding: 20px;
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+#signupForm {
+    display: none;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form {
+    padding: 40px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#signupForm{
+    padding: 10px 40px 10px 40px;
+}
+
+h2 {
+    margin-bottom: 30px;
+    color: #007bff;
+}
+
+label {
+    display: block;
+    margin-bottom: 12px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+.toggle-link {
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .form-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .form {
+        padding: 20px;
+    }
+}

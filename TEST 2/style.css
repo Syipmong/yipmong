@@ -1,0 +1,53 @@
+body{
+    background-image: url("rose.jpg");
+    color: white;
+}
+p{
+    width: 60%;
+    border-top: 2px dotted white;
+    border-bottom: 2px dotted white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    margin-left: 25px;
+}
+
+/* textarea{
+    margin-left: -4px;
+} */
+
+label{
+    margin-right: 12px;
+}
+select{
+    margin-left: 15px;
+}
+.gen{
+    margin-left: 8px;
+}
+#file{
+    margin-left: 10px;
+}
+.hobbies{
+    margin-left: 10px;
+}
+.register{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+.pop{
+    border: 2px solid rgb(255, 0, 0, 0.2);
+    width: 400px;
+    height: 30px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    padding-top: 5px;
+}

@@ -3,7 +3,7 @@ window.addEventListener('load', function() {
   loadingScreen.style.display = 'flex';
   setTimeout(function() {
     loadingScreen.style.display = 'none';
-  }, 5000);
+  }, 500);
 });
 
 window.addEventListener('DOMContentLoaded', function() {

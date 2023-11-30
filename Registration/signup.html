@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="modal.css">
+    <title>Login/Signup Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <form id="loginForm" class="form">
+                <h2>Login</h2>
+                <label for="loginUsername">Username</label>
+                <input type="text" id="loginUsername" name="loginUsername" required>
+
+                <label for="loginPassword">Password</label>
+                <input type="password" id="loginPassword" name="loginPassword" required>
+
+                <button type="button" onclick="login()">Login</button>
+                
+                <p class="toggle-link" onclick="toggleForm('signupForm')">Don't have an account? Sign Up</p>
+            </form>
+
+            <form id="signupForm" class="form">
+                <h2>Sign Up</h2>
+                <label for="signupUsername">Username</label>
+                <input type="text" id="signupUsername" name="signupUsername" required>
+
+                <label for="signupEmail">Email</label>
+                <input type="email" id="signupEmail" name="signupEmail" required>
+                <div class="blob-modal toggle-blob" id="blob-modal"></div>
+                <label for="signupPassword">Password</label>
+                <input type="password" id="signupPassword" name="signupPassword" required>
+                <label for="confirmPassword">Repeat Password</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+
+                <button type="button" onclick="signup()">Sign Up</button>
+
+                <p class="toggle-link" onclick="toggleForm('loginForm')">Already have an account? Login</p>
+            </form>
+        </div>
+    </div>
+
+    <script src="signup.js"></script>
+    <script src="modal.js"></script>
+</body>
+</html>

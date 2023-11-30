@@ -1,14 +1,26 @@
+body{
+  background: url('Registration/digital-lavender-natural-landscape.jpg') fixed;
+  background-size: cover;
+  background-position: center;
+  
+  
+}
+
 .container {
   margin-top: 50px;
+  color:#ff0000;
 }
 
 .screen {
   display: none;
   margin-top: 20px;
 }
+.screen h2{
+  text-align: center;
+}
 
 .nav-pills .nav-link {
-  color: #333;
+  color: #ff0000;
 }
 
 .nav-pills .nav-link i {
@@ -26,6 +38,9 @@ header {
   text-align: center;
 }
 
+h2{
+  color:#f5f5f5;
+}
 header h1 {
   font-weight: bold;
   font-size: 32px;
@@ -43,6 +58,12 @@ header h1 {
 
 .about-section {
   margin-bottom: 30px;
+}
+
+.organization-section{
+  background-color: rgb(245, 245, 245,0.3);
+  padding: 30px;
+  border-radius: 5px;
 }
 
 .experience-section,
@@ -75,16 +96,20 @@ header h1 {
 #homeScreen h2 {
   font-size: 28px;
   margin-bottom: 20px;
-  color: #333;
+  color: #fff;
 }
 
 .about-section {
   margin-bottom: 30px;
+  background-color: rgb(255, 255, 255, 0.7);
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .about-section p {
   font-size: 16px;
-  color: #777;
+  color: #333;
+  padding: 10px 70px 20px 70px;
 }
 
 .experience-section,
@@ -117,7 +142,7 @@ header h1 {
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  background-color: #f7f7f7;
+  background-color: #ffcccc;
   transition: box-shadow 0.3s;
 }
 
@@ -217,10 +242,22 @@ header h1 span {
 .social-button:hover {
   background-color: #0056b3;
 }
+.project-list p{
+  padding: 20px auto;
+  
+
+}
+ .project-list li{
+  color: #333;
+  background-color: #ffcccc;
+  border-radius: 8px;
+ }
 
 .project-list ul {
   list-style-type: none;
   padding: 0;
+  text-align: center;
+
 }
 
 .project-list li {
@@ -230,6 +267,7 @@ header h1 span {
 .project-list a {
   display: inline-block;
   padding: 8px 12px;
+  margin-top: 10px;
   font-size: 16px;
   font-weight: bold;
   text-decoration: none;

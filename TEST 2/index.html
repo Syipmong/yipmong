@@ -11,33 +11,36 @@
     <p>This is some text in a paragraph</p>
     <input type="search" name="search" id="searchbox" placeholder="search">
     <form action="">
+        
         <h1>User Registration</h1>
-        <label for="name">Name:
-            <input type="text" name="name" id="name"></label><br/>
-        </label>
-        <label for="email">Email:
-            <input type="email" name="email" id="email">
-        </label><br/>
-        <label for="address">Address<textarea placeholder="Address"></textarea></label><br>
+        <label for="name">Name  
+            <input type="text" name="name" id="name" placeholder="Name"></label><br/>
+        </label><br>
+        <label for="email">Email  
+            <input type="email" name="email" id="email" placeholder="Email">
+        </label><br/><br>
+        <label for="address">Address </label><textarea placeholder="Address"></textarea><br><br>
         <label for="Gender">Gender </label>
-            <label for="male">Male</label><input type="radio" name="gender" id="male" value="Male">
-            <label for="female">Female</label><input type="radio" name="gender" id="female" value="Female"><br>
+            <input type="radio" name="gender" id="male" value="Male" class="gen">Male
+            <input type="radio" name="gender" id="female" class="gen">Female<br><br>
         <label for="country">Country
         <select name="country" id="country">
-            <option value="country">Country</option>
+            <option value="country">Select</option>
             <option value="usa">USA</option>
             <option value="canada">Canada</option>
             <option value="nigeria">Nigeria</option>
         </select>
-        </label><br>
+        </label><br><br>
         <label for="file">Upload Image
             <input type="file" name="file" id="file">
-        </label><br>
+        </label><br><br>
         <label for="hobbies">Hobbies</label>
-            <input type="checkbox" name="reading" id="readding">Reading
-            <input type="checkbox" name="travelling" id="travelling">Travelling
-        <br>
-        <input type="button" value="Register">
+            <input type="checkbox" name="reading" id="readding" class="hobbies">Reading
+            <input type="checkbox" name="travelling" id="travelling" class="hobbies">Travelling
+        <br><br>
+        <p class="pop" hidden></p>
+        <input type="button" value="Register" class="register" id="register">
     </form>
+    <script src="script.js"></script>
 </body>
 </html>
